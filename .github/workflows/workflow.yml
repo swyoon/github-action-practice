@@ -12,4 +12,4 @@ jobs:
       with:
         to: ${{ secrets.TELEGRAM_TO }}
         token: ${{ secrets.TELEGRAM_TOKEN }}
-        message: ${{ github.event_name }}  ${{ commit.ref }}  ${{ github.event_path }}  ${{ github.actor}} ${{ github.event.head_commit.message }}
+        message: ${{ github.event_name }}  ${{ github.event_path }}  ${{ github.actor}} ${{ github.event.head_commit.message }}
