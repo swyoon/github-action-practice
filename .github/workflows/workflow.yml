@@ -12,4 +12,4 @@ jobs:
       with:
         to: ${{ secrets.TELEGRAM_TO }}
         token: ${{ secrets.TELEGRAM_TOKEN }}
-        message:  "${{ github.actor}} triggered ${{ github.event_name }} ${{ github.ref }}: ${{ github.event.head_commit.message }} ${{ github }}"
+        message:  "${{ github.actor}} triggered ${{ github.event_name }} ${{ github.ref }}: ${{ github.event.head_commit.message }} \n https://github.com/swyoon/ood-research"
